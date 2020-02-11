@@ -1,0 +1,22 @@
+"Games"
+{
+	/* Team Fortress 2 */
+	"tf"
+	{
+		"Signatures"
+		{
+			"CObjectSentrygun::Fire"
+			{
+				"library" 	"server"
+				"windows" 	"\x53\x8B\xDC\x83\xEC\x08\x83\xE4\xF0\x83\xC4\x04\x55\x8B\x6B\x04\x89\x6C\x24\x04\x8B\xEC\x81\xEC\x28\x02\x00\x00\x56"
+				"linux" 	"@_ZN16CObjectSentrygun4FireEv"
+			}
+			"CBaseAnimating::GetAttachment" //(int, Vector&, Vector&)
+			{
+				"library" 	"server"
+				"windows" 	"\x55\x8B\xEC\x8B\x01\x8D\x55\xD0\x83\xEC\x30\x8B\x80\x40\x03\x00\x00\x53\x52\xFF\x75\x08\xFF\xD0\xFF\x75\x10"
+				"linux" 	"@_ZN14CBaseAnimating13GetAttachmentEiR6VectorR6QAngle"
+			}
+		}
+	}
+}
